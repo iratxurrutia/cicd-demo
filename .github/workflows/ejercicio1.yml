@@ -10,4 +10,4 @@ jobs:
       - name: Instalar pytest
         run: pip install pytest
       - name: Utilizar pytest para ejecutar los tests
-        run: pytest test.py
+        run: pytest ../test.py
