@@ -9,3 +9,7 @@ jobs:
     steps:
       - name: Mostrar mensaje
         run: echo "Hola mundo Actions"
+      - name: Bajar codigo
+        run: actions/checkout@v5
+      - name: Probar codigo
+        run: python3 main.py
