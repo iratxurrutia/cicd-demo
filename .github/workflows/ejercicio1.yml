@@ -1,0 +1,13 @@
+name: ejercicio 1
+
+on: push
+
+jobs:
+  validar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Instalar pytest
+        run: pip install pytest
+      - name: Utilizar pytest para ejecutar los tests
+        run: pytest test.py
